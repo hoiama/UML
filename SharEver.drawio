@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T12:19:38.432Z" agent="5.0 (X11)" etag="I90joOwhvnDQd1GlbBML" version="14.5.3" type="github" pages="5">
-  <diagram id="UFklXF1LCE28RJlN8Q36" name="Pages">
-    <mxGraphModel dx="3969" dy="-236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-03-28T13:39:04.164Z" agent="5.0 (X11)" etag="bV6pG33JcEIl5saqyKBe" version="14.5.3" type="github" pages="5">
+  <diagram id="UFklXF1LCE28RJlN8Q36" name="Data model">
+    <mxGraphModel dx="4877" dy="-30" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lO3B_2j6LL15DcBu6LDD-0" />
         <mxCell id="lO3B_2j6LL15DcBu6LDD-1" parent="lO3B_2j6LL15DcBu6LDD-0" />
         <mxCell id="IOQDyEaCTY6MPWt8qL6D-3" value="Dispovíveis (1)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
-          <mxGeometry x="-1600" y="3040" width="240" height="200" as="geometry" />
+          <mxGeometry x="-1600" y="2960" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="IOQDyEaCTY6MPWt8qL6D-4" value="Get groups with groupStatusEnum INCOMPLETED and not ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="IOQDyEaCTY6MPWt8qL6D-3" vertex="1">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IOQDyEaCTY6MPWt8qL6D-13" value="Meus Grupos (2)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
-          <mxGeometry x="-760" y="3000" width="240" height="200" as="geometry" />
+          <mxGeometry x="-760" y="2960" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="IOQDyEaCTY6MPWt8qL6D-14" value="Get groups with signatureStatusEnum CONTRACTED and ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="IOQDyEaCTY6MPWt8qL6D-13" vertex="1">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
@@ -33,7 +33,7 @@
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-8" value="(1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-2" vertex="1" connectable="0">
           <mxGeometry x="0.0842" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-647.17" y="85" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-3" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lO3B_2j6LL15DcBu6LDD-1" source="IOQDyEaCTY6MPWt8qL6D-13" target="eS7Lu-D-4qa2cihZzh8j-1" edge="1">
@@ -45,7 +45,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-5" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-3" vertex="1" connectable="0">
+        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-5" value="(2.2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-3" vertex="1" connectable="0">
           <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
             <mxPoint x="-2" y="131.67" as="offset" />
           </mxGeometry>
@@ -55,17 +55,17 @@
             <mxPoint x="-150.48000000000002" y="2506.1" as="sourcePoint" />
             <mxPoint x="360" y="2573" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="840" y="2573" />
+              <mxPoint x="1240" y="2573" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-12" value="(3)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-11" vertex="1" connectable="0">
           <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="123.29" y="88.98" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-13" value="Inativos (4)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
-          <mxGeometry x="1000" y="3000" width="240" height="200" as="geometry" />
+          <mxGeometry x="1400" y="2960" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-14" value="Get groups with groupStatusEnum INACTIVE or INACTIVE participantion" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="tYd8YVb5CrzPLi8ek7Kr-13" vertex="1">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
@@ -73,21 +73,21 @@
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-26" value="Get all participantion with INACTIVE status and find all groups with idGroups  include the INACTIVE participantion." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="tYd8YVb5CrzPLi8ek7Kr-13" vertex="1">
           <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-15" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;" parent="lO3B_2j6LL15DcBu6LDD-1" source="tYd8YVb5CrzPLi8ek7Kr-13" target="eS7Lu-D-4qa2cihZzh8j-1" edge="1">
+        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-15" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="lO3B_2j6LL15DcBu6LDD-1" source="tYd8YVb5CrzPLi8ek7Kr-13" target="eS7Lu-D-4qa2cihZzh8j-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="2670" as="sourcePoint" />
+            <mxPoint x="1520" y="2900" as="sourcePoint" />
             <mxPoint x="39.999999999999545" y="2533" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1120" y="2573" />
+              <mxPoint x="1520" y="2573" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-16" value="(4)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-15" vertex="1" connectable="0">
           <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="235.86" y="68.98" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-17" value="Acesso (5)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
+        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-17" value="Acesso (2.1)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
           <mxGeometry x="-1040" y="3280" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-18" value="Get get loginSignature with acccess to ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="tYd8YVb5CrzPLi8ek7Kr-17" vertex="1">
@@ -106,12 +106,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-20" value="(5)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-19" vertex="1" connectable="0">
+        <mxCell id="tYd8YVb5CrzPLi8ek7Kr-20" value="(2.1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tYd8YVb5CrzPLi8ek7Kr-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vNVSYtbttZ2kvAX-HOYX-7" value="Payments (6)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
+        <mxCell id="vNVSYtbttZ2kvAX-HOYX-7" value="Payments (2.2)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
           <mxGeometry x="-760" y="3280" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-8" value="Get all payments of group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="vNVSYtbttZ2kvAX-HOYX-7" vertex="1">
@@ -120,13 +120,13 @@
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-9" value="Check if there is a participantion with determinate group, independent of your ParticipantStatusEnum, if there is, so get all payments reference this participation idGroup." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="vNVSYtbttZ2kvAX-HOYX-7" vertex="1">
           <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vNVSYtbttZ2kvAX-HOYX-10" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;" parent="lO3B_2j6LL15DcBu6LDD-1" source="vNVSYtbttZ2kvAX-HOYX-7" target="eS7Lu-D-4qa2cihZzh8j-0" edge="1">
+        <mxCell id="vNVSYtbttZ2kvAX-HOYX-10" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;" parent="lO3B_2j6LL15DcBu6LDD-1" source="vNVSYtbttZ2kvAX-HOYX-7" target="eS7Lu-D-4qa2cihZzh8j-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="2845" as="sourcePoint" />
             <mxPoint x="359.99999999999955" y="2533" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-640" y="3240" />
-              <mxPoint x="200" y="3240" />
+              <mxPoint x="-580" y="3200" />
+              <mxPoint x="200" y="3200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -209,18 +209,18 @@
             <mxPoint x="-360" y="3125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-5" value="(5)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-4">
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-5" value="(2.3)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-4">
           <mxGeometry x="0.1484" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z0KubO84FggKL-aHH1LH-4" value="Information (5)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
+        <mxCell id="z0KubO84FggKL-aHH1LH-4" value="Information (2.3)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
           <mxGeometry x="-480" y="3280" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="z0KubO84FggKL-aHH1LH-5" value="Get get information about group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="z0KubO84FggKL-aHH1LH-4" vertex="1">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="z0KubO84FggKL-aHH1LH-6" value="Get group information without liginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="z0KubO84FggKL-aHH1LH-4" vertex="1">
+        <mxCell id="z0KubO84FggKL-aHH1LH-6" value="Get group information without loginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="z0KubO84FggKL-aHH1LH-4" vertex="1">
           <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eS7Lu-D-4qa2cihZzh8j-0" value="Participantion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#a20025;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
@@ -230,12 +230,258 @@
           <mxGeometry y="26" width="320" height="134" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-9" value="Aguardando (3)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="lO3B_2j6LL15DcBu6LDD-1" vertex="1">
-          <mxGeometry x="720" y="3000" width="240" height="200" as="geometry" />
+          <mxGeometry x="1120" y="2960" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-10" value="Get groups with signatureStatusEnum UNCONTRACTED and WAITING participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="tYd8YVb5CrzPLi8ek7Kr-9" vertex="1">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-25" value="Get all participantion with WAITING status and find all groups with idGroups  include the WAITING participantion." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" parent="tYd8YVb5CrzPLi8ek7Kr-9" vertex="1">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-6" value="Preview (1.1)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="-1600" y="3280" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-7" value="Get get details group and signature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-6">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-8" value="Get group information  with signature and without loginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-6">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-9" value="Checkout (8)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="-1360" y="3800" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-10" value="Get get loginSignature with acccess to ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-9">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-11" value="Get get ACTIVE participantion and project the loginSignature of Signature&#39; Group." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-9">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-12" value="PaymentInformation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="-1360" y="4080" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-13" value="Get get loginSignature with acccess to ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-12">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-14" value="Get get ACTIVE participantion and project the loginSignature of Signature&#39; Group." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-12">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-15" value="Regras (2.4)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="-200" y="3280" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-16" value="Get get information about group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-15">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-17" value="Get group information without liginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-15">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-18" value="Suporte (2.5)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="80" y="3280" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-19" value="Get get information about group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-18">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-20" value="Get group information without liginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-18">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="3280" as="sourcePoint" />
+            <mxPoint x="-30" y="2100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="2680" />
+              <mxPoint x="-130" y="2680" />
+              <mxPoint x="-130" y="2100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-22" value="(2.4)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-21">
+          <mxGeometry x="0.1484" y="1" relative="1" as="geometry">
+            <mxPoint x="0.96" y="55.88" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-23" value="Gráfico (2.6)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="360" y="3280" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-24" value="Get get information about group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-23">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-25" value="Get group information without liginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-23">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-26" value="Econimia (2.7)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="640" y="3280" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-27" value="Get get information about group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-26">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-28" value="Get group information without liginSignature" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-26">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-32" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="IOQDyEaCTY6MPWt8qL6D-13" target="tYd8YVb5CrzPLi8ek7Kr-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1030" y="3365" as="sourcePoint" />
+            <mxPoint x="-880" y="3107.0588235294117" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="3240" />
+              <mxPoint x="-920" y="3240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-33" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-32">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="-199.17" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-34" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="IOQDyEaCTY6MPWt8qL6D-13" target="vNVSYtbttZ2kvAX-HOYX-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750" y="3045" as="sourcePoint" />
+            <mxPoint x="-910" y="3290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-35" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-34">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="41.72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-36" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.498;exitY=1.004;exitDx=0;exitDy=0;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="tYd8YVb5CrzPLi8ek7Kr-24" target="z0KubO84FggKL-aHH1LH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-630" y="3170" as="sourcePoint" />
+            <mxPoint x="-630" y="3290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="3240" />
+              <mxPoint x="-420" y="3240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-37" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-36">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="163.51" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-38" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="IOQDyEaCTY6MPWt8qL6D-13" target="Ds4y6ecp7dKiqxuAfc2T-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-380" y="3110" as="sourcePoint" />
+            <mxPoint x="-220" y="3330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="3240" />
+              <mxPoint x="480" y="3240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-39" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-38">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="140.69" y="7.97" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-40" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" target="Ds4y6ecp7dKiqxuAfc2T-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640" y="3160" as="sourcePoint" />
+            <mxPoint x="-70" y="3290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="3240" />
+              <mxPoint x="200" y="3240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-41" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-40">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="321.38" y="77.98" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-42" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" target="Ds4y6ecp7dKiqxuAfc2T-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640" y="3160" as="sourcePoint" />
+            <mxPoint x="210" y="3290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="3240" />
+              <mxPoint x="-80" y="3240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-43" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-42">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="152.12" y="64" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-45" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;snapToPoint=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="Ds4y6ecp7dKiqxuAfc2T-6" target="Ds4y6ecp7dKiqxuAfc2T-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-580.0000000000005" y="3540" as="sourcePoint" />
+            <mxPoint x="-960" y="3710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1480" y="3760" />
+              <mxPoint x="-1240" y="3760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-46" value="(1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-45">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint x="-57.139999999999986" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-47" value="Renovation (2.1.1)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="-1040" y="3560" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-48" value="Get get loginSignature with acccess to ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-47">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-49" value="Get get ACTIVE participantion and project the loginSignature of Signature&#39; Group." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-47">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-50" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="Ds4y6ecp7dKiqxuAfc2T-6" target="vNVSYtbttZ2kvAX-HOYX-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1470.0000000000005" y="2970" as="sourcePoint" />
+            <mxPoint x="50" y="2583" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1640" y="3380" />
+              <mxPoint x="-1640" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-51" value="(1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-50">
+          <mxGeometry x="0.0842" y="-2" relative="1" as="geometry">
+            <mxPoint x="-218.57" y="123" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-52" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="Ds4y6ecp7dKiqxuAfc2T-9" target="vNVSYtbttZ2kvAX-HOYX-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1590.0000000000005" y="3390" as="sourcePoint" />
+            <mxPoint x="-20" y="2010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1680" y="3900" />
+              <mxPoint x="-1680" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-53" value="(1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ds4y6ecp7dKiqxuAfc2T-52">
+          <mxGeometry x="0.0842" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-54" value="Alerts (5)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="1680" y="2960" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-55" value="Get groups with groupStatusEnum INACTIVE or INACTIVE participantion" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-54">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-56" value="Get all participantion with INACTIVE status and find all groups with idGroups  include the INACTIVE participantion." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-54">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-57" value="Profile (6)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="1960" y="2960" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-58" value="Get groups with groupStatusEnum INACTIVE or INACTIVE participantion" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-57">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-59" value="Get all participantion with INACTIVE status and find all groups with idGroups  include the INACTIVE participantion." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-57">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-60" value="Money (7)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="2240" y="2960" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-61" value="Get groups with groupStatusEnum INACTIVE or INACTIVE participantion" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-60">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4y6ecp7dKiqxuAfc2T-62" value="Get all participantion with INACTIVE status and find all groups with idGroups  include the INACTIVE participantion." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="Ds4y6ecp7dKiqxuAfc2T-60">
           <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
