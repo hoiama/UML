@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T15:12:37.006Z" agent="5.0 (X11)" etag="1EeXBwHCzQUu8QeU2WTV" version="14.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-28T15:28:15.866Z" agent="5.0 (X11)" etag="S5D8Ba-3OzVzLKXuwPg1" version="14.5.3" type="github" pages="5">
   <diagram id="UFklXF1LCE28RJlN8Q36" name="Data model">
     <mxGraphModel dx="3678" dy="-517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R5Yf_dvTV1LNLPGPYoRF" name="Class  model">
-    <mxGraphModel dx="2369" dy="6564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="6283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -837,7 +837,7 @@
         <mxCell id="YfpZ8lNsi_HrbTcSNGzq-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SignatureLogin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- _id: ObjectId&lt;br&gt;&amp;nbsp;- username: String&lt;br&gt;&amp;nbsp;- password: String&lt;br&gt;&amp;nbsp;- loginProcedure: String&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1320" y="-3440" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YfpZ8lNsi_HrbTcSNGzq-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- _id: ObjectId&lt;br&gt;&lt;div&gt;&amp;nbsp;- name: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- country: CountryEnum&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- fiscalNumber: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cellPhone: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- origin: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- score: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- gain: double&lt;/div&gt;&amp;nbsp;- userLogin:UserLogin&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="YfpZ8lNsi_HrbTcSNGzq-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- _id: ObjectId&lt;br&gt;&lt;div&gt;&amp;nbsp;- name: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- country: CountryEnum&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- fiscalNumber: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cellPhone: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- origin: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- score: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- gain: double&lt;/div&gt;&lt;div&gt;&amp;nbsp;- birthday: Date&lt;br&gt;&lt;/div&gt;&amp;nbsp;- userLogin:UserLogin&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="680" y="-3800" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="ZUdSffwWtzlrZSRywzxZ-7" value="Transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
@@ -859,10 +859,10 @@
           <mxGeometry y="26" width="400" height="654" as="geometry" />
         </mxCell>
         <mxCell id="ZUdSffwWtzlrZSRywzxZ-27" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f0a30a;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#BD7000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="280" y="-3800" width="320" height="320" as="geometry" />
+          <mxGeometry x="280" y="-3800" width="320" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="ZUdSffwWtzlrZSRywzxZ-28" value="{&#xa;    &quot;_id&quot; : ObjectId(&quot;05fa940e1424f4731b93f3c3&quot;),&#xa;    &quot;name&quot; : &quot;Tatiane Marin&quot;,&#xa;    &quot;country&quot; : BRASIL,&#xa;    &quot;fiscalNumber&quot; : &quot;12312312323&quot;,&#xa;    &quot;cellphone&quot; : &quot;43 9642-1519&quot;,&#xa;    &quot;origin&quot; : &quot;google&quot;,&#xa;    &quot;score&quot; : 0,&#xa;    &quot;gain&quot; : 0.0,&#xa;    &quot;birthday&quot; : &quot;12121990&quot;,&#xa;    &quot;userLogin&quot; : {&#xa;        &quot;username&quot; : &quot;tatiane.marin@hotmail.com&quot;,&#xa;        &quot;password&quot; : &quot;12345678&quot;,&#xa;        &quot;roles&quot; : [ &#xa;            &quot;ROLE_USER&quot;&#xa;        ]&#xa;    },&#xa;    &quot;_class&quot; : &quot;br.com.sharever.entity.User&quot;&#xa;}&#xa;" style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;fontSize=12;" parent="ZUdSffwWtzlrZSRywzxZ-27" vertex="1">
-          <mxGeometry y="26" width="320" height="294" as="geometry" />
+        <mxCell id="ZUdSffwWtzlrZSRywzxZ-28" value="{&#xa;    &quot;_id&quot; : ObjectId(&quot;05fa940e1424f4731b93f3c3&quot;),&#xa;    &quot;name&quot; : &quot;Tatiane Marin&quot;,&#xa;    &quot;country&quot; : BRASIL,&#xa;    &quot;fiscalNumber&quot; : &quot;12312312323&quot;,&#xa;    &quot;cellphone&quot; : &quot;43 9642-1519&quot;,&#xa;    &quot;origin&quot; : &quot;google&quot;,&#xa;    &quot;score&quot; : 0,&#xa;    &quot;gain&quot; : 0.0,&#xa;    &quot;birthday&quot; : &quot;12121990&quot;,&#xa;    &quot;userLogin&quot; : {&#xa;        &quot;username&quot; : &quot;tatiane.marin@hotmail.com&quot;,&#xa;        &quot;password&quot; : &quot;12345678&quot;,&#xa;        &quot;roles&quot; : [ &#xa;            &quot;ROLE_USER&quot;,&#xa;            &quot;ROLE_ADMIN&quot;&#xa;        ] &#xa;   }," style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;fontSize=12;" parent="ZUdSffwWtzlrZSRywzxZ-27" vertex="1">
+          <mxGeometry y="26" width="320" height="264" as="geometry" />
         </mxCell>
         <mxCell id="ZUdSffwWtzlrZSRywzxZ-29" value="Participantion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#a20025;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="280" y="-4000" width="320" height="160" as="geometry" />
@@ -882,8 +882,8 @@
         <mxCell id="HfgNnB3rh0BBW_vbnc7k-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;AlertGroup&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- _id: ObjectId&lt;br&gt;&amp;nbsp;- signatureName: String&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1000" y="-2960" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="n4LQRaQf78NkJXURVptE-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;UserLogin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- email String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- password String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- fiscalNumber: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cellPhone: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- origin: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- score: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- gain: double&lt;/div&gt;&amp;nbsp;- userLogin:UserLogin&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-3800" width="160" height="180" as="geometry" />
+        <mxCell id="n4LQRaQf78NkJXURVptE-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;UserLogin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- email String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- password String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- roles: List&amp;lt;String&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-3800" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
