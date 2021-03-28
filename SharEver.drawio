@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T22:28:10.350Z" agent="5.0 (X11)" etag="7I2xCTmhB4VHLjo9K62N" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-28T00:08:45.695Z" agent="5.0 (X11)" etag="ONvdNW-bVKCNaBtBRWHg" version="14.5.1" type="github" pages="5">
   <diagram id="UFklXF1LCE28RJlN8Q36" name="Pages">
-    <mxGraphModel dx="2769" dy="-636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="-635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lO3B_2j6LL15DcBu6LDD-0" />
         <mxCell id="lO3B_2j6LL15DcBu6LDD-1" parent="lO3B_2j6LL15DcBu6LDD-0" />
@@ -108,21 +108,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-17" value="Acesso (5)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
-          <mxGeometry x="840" y="2760" width="240" height="210" as="geometry" />
+          <mxGeometry x="880" y="2600" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-18" value="Get get loginSignature with acccess to ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="tYd8YVb5CrzPLi8ek7Kr-17">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-6" value="Get get ACTIVE participantion and project the loginSignature of Signature&#39; Group." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="tYd8YVb5CrzPLi8ek7Kr-17">
-          <mxGeometry y="120" width="240" height="90" as="geometry" />
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-19" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="tYd8YVb5CrzPLi8ek7Kr-18" target="tYd8YVb5CrzPLi8ek7Kr-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="2822" as="sourcePoint" />
             <mxPoint x="300" y="2520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="2835" />
-              <mxPoint x="400" y="2533" />
+              <mxPoint x="670" y="2675" />
+              <mxPoint x="670" y="2533" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,25 +132,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-7" value="Payments (6)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
-          <mxGeometry x="840" y="2510" width="240" height="210" as="geometry" />
+          <mxGeometry x="880" y="2840" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-8" value="Get all payments of group" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="vNVSYtbttZ2kvAX-HOYX-7">
           <mxGeometry y="30" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vNVSYtbttZ2kvAX-HOYX-9" value="Check if there is a participantion independent of your status, if there is, so get all payments reference this participation." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="vNVSYtbttZ2kvAX-HOYX-7">
-          <mxGeometry y="120" width="240" height="90" as="geometry" />
+        <mxCell id="vNVSYtbttZ2kvAX-HOYX-9" value="Check if there is a participantion with determinate group, independent of your ParticipantStatusEnum, if there is, so get all payments reference this participation idGroup." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="vNVSYtbttZ2kvAX-HOYX-7">
+          <mxGeometry y="120" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-10" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="vNVSYtbttZ2kvAX-HOYX-8" target="tYd8YVb5CrzPLi8ek7Kr-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="2845" as="sourcePoint" />
             <mxPoint x="370" y="2543" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="2585" />
-              <mxPoint x="560" y="2533" />
+              <mxPoint x="640" y="2915" />
+              <mxPoint x="640" y="2533" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vNVSYtbttZ2kvAX-HOYX-11" value="(5)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vNVSYtbttZ2kvAX-HOYX-10">
+        <mxCell id="vNVSYtbttZ2kvAX-HOYX-11" value="(6)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vNVSYtbttZ2kvAX-HOYX-10">
           <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -171,7 +171,13 @@
           <mxGeometry y="30" width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="vNVSYtbttZ2kvAX-HOYX-19" value="Collection Payment" style="swimlane;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;swimlaneFillColor=#4D4D4D;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
-          <mxGeometry x="760" y="1880" width="470" height="440" as="geometry" />
+          <mxGeometry x="760" y="1560" width="470" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-0" value="Payment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#6a00ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="vNVSYtbttZ2kvAX-HOYX-19">
+          <mxGeometry x="35" y="50" width="400" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-1" value="{&#xa;        &quot;_id&quot; : ObjectId(&quot;605e098fdf471909fbfaf92a&quot;),&#xa;        &quot;expiresAt&quot; : &quot;2019-11-24T00:59:59-02:00&quot;,&#xa;        &quot;realValue&quot; : 60.0,&#xa;        &quot;shareValue&quot; : 15.0,&#xa;        &quot;shareverFee&quot; : 0.0,&#xa;        &quot;bankFee&quot; : 0.0,&#xa;        &quot;governmentTax&quot; : 0.0,&#xa;        &quot;totalValue&quot; : 15.0,&#xa;        &quot;discount&quot; : 0.0,&#xa;        &quot;coupon&quot; : &quot;&quot;,&#xa;        &quot;paymentFormEnum&quot; : &quot;PICPAY&quot;,&#xa;        &quot;paymentTypeEnum&quot; : &quot;CREDIT&quot;,&#xa;        &quot;validate: {&#xa;            &quot;startDate&quot; : &quot;2019-11-24T12:37:25.644-03:00&quot;,&#xa;            &quot;endDate&quot; : &quot;2019-12-24T20:59:58.644-03:00&quot;,&#xa;            &quot;renewDate&quot; : &quot;2019-12-21T20:59:58.644-03:00&quot;,&#xa;        },&#xa;        reference: {&#xa;            &quot;idUser&quot; : ObjectId(&quot;5de5228ba6be212b936b1008&quot;),&#xa;            &quot;idGroup&quot; : ObjectId(&quot;02ee625e0948e726363060f1&#xa;        },&#xa;        &quot;paymentStatus&quot; : [           &#xa;            {&#xa;                &quot;dateStatus&quot; : &quot;2019-11-24T12:37:27.644-03:00&quot;,&#xa;                &quot;paymentStatusEnum&quot; : &quot;CREATED&quot;&#xa;            },&#xa;            {&#xa;                &quot;dateStatus&quot; : &quot;2019-11-24T12:37:29.644-03:00&quot;,&#xa;                &quot;paymentStatusEnum&quot; : &quot;PAID&quot;&#xa;            },&#xa;            {&#xa;                &quot;dateStatus&quot; : &quot;2019-12-24T20:59:58.644-03:00&quot;,&#xa;                &quot;paymentStatusEnum&quot; : &quot;COMPLETED&quot;&#xa;            }&#xa;        ],&#xa;        &quot;extrasPaymentPicpay&quot; : {&#xa;            &quot;qrCodePicpay&quot; : {&#xa;                &quot;content&quot; : &quot;&quot;,&#xa;                &quot;base64&quot; : &quot;&quot;&#xa;            },&#xa;            &quot;authorizationId&quot; : &quot;&quot;&#xa;        }&#xa;}," style="text;strokeColor=#3700CC;fillColor=#6a00ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;" vertex="1" parent="z0KubO84FggKL-aHH1LH-0">
+          <mxGeometry y="26" width="400" height="654" as="geometry" />
         </mxCell>
         <mxCell id="tYd8YVb5CrzPLi8ek7Kr-4" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.504;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="tYd8YVb5CrzPLi8ek7Kr-0" target="g6JGN0jlnwP07ELtKnWu-1">
           <mxGeometry relative="1" as="geometry">
@@ -198,6 +204,31 @@
           <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-2" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="lO3B_2j6LL15DcBu6LDD-1" source="tYd8YVb5CrzPLi8ek7Kr-0" target="vNVSYtbttZ2kvAX-HOYX-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="2480" as="sourcePoint" />
+            <mxPoint x="530" y="2230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="2520" />
+              <mxPoint x="640" y="2450" />
+              <mxPoint x="995" y="2450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-3" value="(6)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z0KubO84FggKL-aHH1LH-2">
+          <mxGeometry x="-0.1949" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-4" value="Information (5)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="lO3B_2j6LL15DcBu6LDD-1">
+          <mxGeometry x="880" y="3080" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-5" value="Get get loginSignature with acccess to ACTIVE participant" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="z0KubO84FggKL-aHH1LH-4">
+          <mxGeometry y="30" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="z0KubO84FggKL-aHH1LH-6" value="Get get ACTIVE participantion and project the loginSignature of Signature&#39; Group." style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="z0KubO84FggKL-aHH1LH-4">
+          <mxGeometry y="120" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
