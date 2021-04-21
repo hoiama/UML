@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T20:08:44.346Z" agent="5.0 (X11)" etag="Hh7w-ZjD90g-988knDuF" version="14.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-04-21T20:54:56.553Z" agent="5.0 (X11)" etag="2pOSwFftcv_EHjDNNi_l" version="14.6.1" type="github" pages="5">
   <diagram id="pcqIEjDKNv2b_Hkf46tR" name="Entity model">
     <mxGraphModel dx="2821" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1250,11 +1250,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SdaiXsaGA-Q73yKjgXyy" name="Object  model">
-    <mxGraphModel dx="4421" dy="3144" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
+    <mxGraphModel dx="5770" dy="3713" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
       <root>
         <mxCell id="SxsRHGIOjUViLT94qkq1-0" />
         <mxCell id="SxsRHGIOjUViLT94qkq1-1" parent="SxsRHGIOjUViLT94qkq1-0" />
-        <mxCell id="MobYZt7wtoOE0_h9VMdQ-0" value="Repasse entre contas SharEver" style="swimlane;rounded=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
+        <mxCell id="MobYZt7wtoOE0_h9VMdQ-0" value="Repasse entre contas SharEver" style="swimlane;rounded=1;fillColor=#ffe6cc;swimlaneFillColor=#ffffff;strokeColor=#FFF2CC;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
           <mxGeometry x="-510" y="-910" width="1740" height="1300" as="geometry" />
         </mxCell>
         <mxCell id="vMsqQF1-S8_fWYN00mgW-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;account: &lt;/b&gt;&lt;b&gt;AccountUser&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id = &quot;5dbe22befe21657f76779988&quot;&lt;br&gt;person = personOwner&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;balance = 534.9&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;releases =&amp;nbsp; release&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="MobYZt7wtoOE0_h9VMdQ-0" vertex="1">
@@ -1355,7 +1355,7 @@
             <mxPoint x="1120" y="885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QEXDQfASCCLXlrzVSHNl-9" value="Repasse entre contas SharEver" style="swimlane;rounded=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
+        <mxCell id="QEXDQfASCCLXlrzVSHNl-9" value="Repasse entre contas SharEver" style="swimlane;rounded=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;swimlaneFillColor=#ffffff;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
           <mxGeometry x="-550" y="490" width="1740" height="880" as="geometry" />
         </mxCell>
         <mxCell id="QEXDQfASCCLXlrzVSHNl-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;account: &lt;/b&gt;&lt;b&gt;AccountUser&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id = &quot;5dbe22befe21657f76779988&quot;&lt;br&gt;person = personOwner&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;balance = 534.9&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;releases =&amp;nbsp; release&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="QEXDQfASCCLXlrzVSHNl-9" vertex="1">
@@ -1452,7 +1452,7 @@
             <mxPoint x="1584" y="412" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S5hhHvaOb4HWmijC1tIu-0" value="Repasse entre contas SharEver" style="swimlane;rounded=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
+        <mxCell id="S5hhHvaOb4HWmijC1tIu-0" value="Repasse entre contas SharEver" style="swimlane;rounded=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;swimlaneFillColor=#FFF2CC;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
           <mxGeometry x="-630" y="-2260" width="2040" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="S5hhHvaOb4HWmijC1tIu-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;account: &lt;/b&gt;&lt;b&gt;AccountUser&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id = &quot;5dbe22befe21657f76779988&quot;&lt;br&gt;person = personOwner&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;balance = 534.9&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; transactions =&amp;nbsp; @transaction&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" parent="S5hhHvaOb4HWmijC1tIu-0" vertex="1">
@@ -1688,7 +1688,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Use case model" id="rb0IqdzBDLTZg67f0sod">
-    <mxGraphModel dx="2014" dy="419" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="388" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DELKKwsP7DvwE-UPYKjy-0" />
         <mxCell id="DELKKwsP7DvwE-UPYKjy-1" parent="DELKKwsP7DvwE-UPYKjy-0" />
