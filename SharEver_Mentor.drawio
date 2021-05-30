@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T15:46:50.936Z" agent="5.0 (X11)" etag="JWvL-AKL_1gkq35gf2cn" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-30T18:37:08.335Z" agent="5.0 (X11)" etag="BF_YTDXiPfk0_5EQ7JVJ" version="14.6.13" type="github" pages="5">
   <diagram id="R5Yf_dvTV1LNLPGPYoRF" name="Class  model">
-    <mxGraphModel dx="2022" dy="5944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2379" dy="6075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,30 +139,30 @@
         <mxCell id="Y5IZ2XeZiBqb6BeWuaZv-14" value="module-sharever-mentoring-group" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#FFFFFF;rounded=0;shadow=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="680" y="-2440" width="760" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="YfpZ8lNsi_HrbTcSNGzq-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;MentoringGroup&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- _id: ObjectId&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- idMentor: ObjectId&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&amp;nbsp;- startDate: Date&lt;br&gt;&lt;div&gt;&amp;nbsp;- endDate: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- groupCoinEnum CoinEnum&lt;/div&gt;&lt;div&gt;&amp;nbsp;- realValue: double&lt;/div&gt;&lt;div&gt;&amp;nbsp;- shareValue: double&lt;/div&gt;&amp;nbsp;- economyValue: double&lt;br&gt;&lt;div&gt;&amp;nbsp;- economyPercenty: double&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- size: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- timeSection: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- programWeeks: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- intervarMeeting: int&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- activeParticipants: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- description: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- rule: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- politic: String,&lt;/div&gt;&lt;div&gt;-&amp;nbsp; objectives: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- tags: List&amp;lt;String&amp;gt;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- groupStatusEnum: GroupStatusEnum&lt;br&gt;&amp;nbsp;- groupTypeEnum: GroupTypeEnum&lt;br&gt;&amp;nbsp;- groupCyclenum: GroupCycleEnum&lt;/div&gt;&lt;div&gt;&amp;nbsp;- renovationPeriodDays: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- persona: Persona, &lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
+        <mxCell id="YfpZ8lNsi_HrbTcSNGzq-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;MentoringGroup&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- _id: ObjectId&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- idMentor: ObjectId&lt;/div&gt;&lt;/div&gt;&amp;nbsp;- startDate: Date&lt;br&gt;&lt;div&gt;&amp;nbsp;- endDate: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- coinEnum CoinEnum&lt;/div&gt;&lt;div&gt;&amp;nbsp;- realValue: double&lt;/div&gt;&lt;div&gt;&amp;nbsp;- shareValue: double&lt;/div&gt;&amp;nbsp;- economyValue: double&lt;br&gt;&lt;div&gt;&amp;nbsp;- economyPercenty: double&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- size: int&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- activeParticipants: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- description: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- rule: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- politic: String,&lt;/div&gt;&lt;div&gt;-&amp;nbsp; objective: String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- statusEnum: GroupStatusEnum&lt;br&gt;&amp;nbsp;- typeEnum: GroupTypeEnum&lt;br&gt;&amp;nbsp;- cyclenum: GroupCycleEnum&lt;/div&gt;&lt;div&gt;&amp;nbsp;- renovationPeriodDays: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- persona: Persona, &lt;/div&gt;&amp;nbsp;- section: Section&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
           <mxGeometry x="30" y="60" width="320" height="400" as="geometry" />
         </mxCell>
         <mxCell id="k8eBHi9CZ5N-f-aitZVQ-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;GroupStatusEnum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- COMPLETE : String,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- INCOMPLETE : String,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- WAITING : String,&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
-          <mxGeometry x="430" y="380" width="160" height="120" as="geometry" />
+          <mxGeometry x="430" y="500" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="k8eBHi9CZ5N-f-aitZVQ-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;GroupCyclenum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- CONTINUOUS : String,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- UNCONTINUOUS : String&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
-          <mxGeometry x="430" y="540" width="160" height="120" as="geometry" />
+          <mxGeometry x="430" y="660" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="k8eBHi9CZ5N-f-aitZVQ-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;CoinEnum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- REAL : String,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- DOLAR : String,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- EURO : String,&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
-          <mxGeometry x="430" y="220" width="160" height="120" as="geometry" />
+          <mxGeometry x="430" y="340" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="k8eBHi9CZ5N-f-aitZVQ-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;PersonaEnum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- personaExperienceTimeStart: int,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- personaExperienceTimeEnd: int,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- personaTarger : List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- groupDestinationEnum: GroupDestinationEnum&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
+        <mxCell id="k8eBHi9CZ5N-f-aitZVQ-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;PersonaEnum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- experienceTimeStart: int,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- experienceTimeEnd: int,&lt;/div&gt;&lt;div&gt;&amp;nbsp;- targerkeyword : List&amp;lt;String&amp;gt;,&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- personaTargerProfission : List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- groupDestinationEnum: GroupDestinationEnum&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
           <mxGeometry x="430" y="60" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="k8eBHi9CZ5N-f-aitZVQ-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;GroupDestinationEnum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- PERSONAL : String,&lt;div&gt;&amp;nbsp;- PROFESSIONAL : String&lt;/div&gt;&lt;div&gt;&amp;nbsp;- BUSINESS: String&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
-          <mxGeometry x="430" y="700" width="160" height="120" as="geometry" />
+          <mxGeometry x="430" y="820" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Y5IZ2XeZiBqb6BeWuaZv-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" source="YfpZ8lNsi_HrbTcSNGzq-1" target="k8eBHi9CZ5N-f-aitZVQ-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="370" y="280" />
-              <mxPoint x="370" y="280" />
+              <mxPoint x="400" y="280" />
+              <mxPoint x="400" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -171,8 +171,8 @@
             <mxPoint x="360" y="270" as="sourcePoint" />
             <mxPoint x="440" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="392" />
-              <mxPoint x="410" y="440" />
+              <mxPoint x="390" y="392" />
+              <mxPoint x="390" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -184,8 +184,8 @@
             <mxPoint x="360" y="370" as="sourcePoint" />
             <mxPoint x="440" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="407" />
-              <mxPoint x="400" y="600" />
+              <mxPoint x="370" y="407" />
+              <mxPoint x="370" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -195,9 +195,12 @@
             <mxPoint x="440" y="610" as="targetPoint" />
             <Array as="points">
               <mxPoint x="730" y="120" />
-              <mxPoint x="730" y="760" />
+              <mxPoint x="730" y="880" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8-J1FGpjnsLW7w8kek11-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Section&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- timeSection: int&lt;div&gt;&amp;nbsp;- programWeeks: int&lt;/div&gt;&amp;nbsp;- intervarMeeting: int&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" vertex="1" parent="Y5IZ2XeZiBqb6BeWuaZv-14">
+          <mxGeometry x="430" y="200" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Y5IZ2XeZiBqb6BeWuaZv-15" value="module-sharever-mentoring-mentor" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#FFFFFF;rounded=0;shadow=0;labelBackgroundColor=none;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="1560" y="-2440" width="640" height="320" as="geometry" />
