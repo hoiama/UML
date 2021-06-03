@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T01:47:42.294Z" agent="5.0 (X11)" etag="ny9unDAG9DQaVrWGyiSf" version="14.7.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-03T23:24:09.135Z" agent="5.0 (X11)" etag="Ea5z4TQMsIXONyr8ohgS" version="14.7.4" type="github" pages="5">
   <diagram id="R5Yf_dvTV1LNLPGPYoRF" name="Class  model">
-    <mxGraphModel dx="1685" dy="5820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="5944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,6 +213,9 @@
         </mxCell>
         <mxCell id="Y5IZ2XeZiBqb6BeWuaZv-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;" parent="Y5IZ2XeZiBqb6BeWuaZv-15" source="YfpZ8lNsi_HrbTcSNGzq-3" target="Y5IZ2XeZiBqb6BeWuaZv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7w689cr28DDlYOseEu0k-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;ProfisionalAreaEnum&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- _id: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- professionName: String&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" vertex="1" parent="Y5IZ2XeZiBqb6BeWuaZv-15">
+          <mxGeometry x="360" y="190" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Y5IZ2XeZiBqb6BeWuaZv-27" value="Container" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#FFFFFF;rounded=0;shadow=0;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2720" y="-2440" width="280" height="200" as="geometry" />
