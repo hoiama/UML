@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T23:32:30.448Z" agent="5.0 (X11)" etag="4uqzZdPbTNtK40YLZbq9" version="14.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-28T19:34:52.551Z" agent="5.0 (X11)" etag="euNeZoK_GkfE_61XCDzl" version="14.8.1" type="github" pages="6">
   <diagram id="R5Yf_dvTV1LNLPGPYoRF" name="Class  model">
-    <mxGraphModel dx="2376" dy="6127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="5944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,7 +202,7 @@
         <mxCell id="8-J1FGpjnsLW7w8kek11-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Section&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- firstSection: int &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- timeSection: int&lt;div&gt;&amp;nbsp;- programWeeks: int&lt;/div&gt;&amp;nbsp;- intervarMeeting: int&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
           <mxGeometry x="430" y="200" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="57rb-hMnxyjli5uIdqY3-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Schedule&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- section: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- day: int  &lt;/div&gt;&lt;div&gt;&amp;nbsp;- hourStart: int&lt;div&gt;&amp;nbsp;- hourEnd: int&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" vertex="1" parent="Y5IZ2XeZiBqb6BeWuaZv-14">
+        <mxCell id="57rb-hMnxyjli5uIdqY3-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Schedule&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- section: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- day: int  &lt;/div&gt;&lt;div&gt;&amp;nbsp;- hourStart: int&lt;div&gt;&amp;nbsp;- hourEnd: int&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#FFFFFF;" parent="Y5IZ2XeZiBqb6BeWuaZv-14" vertex="1">
           <mxGeometry x="430" y="970" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Y5IZ2XeZiBqb6BeWuaZv-15" value="module-sharever-mentoring-mentor" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#FFFFFF;rounded=0;shadow=0;labelBackgroundColor=none;startSize=23;" parent="1" vertex="1">
@@ -432,7 +432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UFklXF1LCE28RJlN8Q36" name="Data model">
-    <mxGraphModel dx="4022" dy="-856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7055" dy="260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lO3B_2j6LL15DcBu6LDD-0" />
         <mxCell id="lO3B_2j6LL15DcBu6LDD-1" parent="lO3B_2j6LL15DcBu6LDD-0" />
@@ -1358,7 +1358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SdaiXsaGA-Q73yKjgXyy" name="Object  model">
-    <mxGraphModel dx="4085" dy="3457" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
+    <mxGraphModel dx="9140" dy="5280" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
       <root>
         <mxCell id="SxsRHGIOjUViLT94qkq1-0" />
         <mxCell id="SxsRHGIOjUViLT94qkq1-1" parent="SxsRHGIOjUViLT94qkq1-0" />
@@ -1681,7 +1681,7 @@
         <mxCell id="MNjQZ3MPq8ua8i8n1qPj-31" value="{ &#xa;   &quot;_id&quot; : ObjectId(&quot;5dbe22befe21657f76779988&quot;),&#xa;   &quot;idUser&quot; : ObjectId(&quot;5dbe22befe21657f76779988&quot;),&#xa;   &quot;idGroup&quot; : &quot;20ac770ae1d10bb601518daf&quot;,&#xa;   &quot;participantStatusEnum&quot; : &quot;ACTIVE&quot;,&#xa;   &quot;participantTypeEnum&quot; : &quot;ADMIN&quot;,&#xa;   &quot;automaticPayment&quot; : true&#xa;}" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;fontSize=12;" parent="MNjQZ3MPq8ua8i8n1qPj-30" vertex="1">
           <mxGeometry y="26" width="320" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="OSdYKZY1tZRl4g4_QAjT-0" value="Container" style="swimlane;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SxsRHGIOjUViLT94qkq1-1">
+        <mxCell id="OSdYKZY1tZRl4g4_QAjT-0" value="Container" style="swimlane;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
           <mxGeometry x="-2280" y="-2670" width="1370" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="MNjQZ3MPq8ua8i8n1qPj-18" value="Payment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#6a00ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#3700CC;fontColor=#ffffff;" parent="OSdYKZY1tZRl4g4_QAjT-0" vertex="1">
@@ -1765,7 +1765,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSdYKZY1tZRl4g4_QAjT-2" value="Container" style="swimlane;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SxsRHGIOjUViLT94qkq1-1">
+        <mxCell id="OSdYKZY1tZRl4g4_QAjT-2" value="Container" style="swimlane;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SxsRHGIOjUViLT94qkq1-1" vertex="1">
           <mxGeometry x="-2280" y="-1390" width="900" height="310" as="geometry" />
         </mxCell>
         <mxCell id="MNjQZ3MPq8ua8i8n1qPj-14" value="Transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#2D7600;fontColor=#ffffff;" parent="OSdYKZY1tZRl4g4_QAjT-2" vertex="1">
@@ -1799,7 +1799,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Use case model" id="rb0IqdzBDLTZg67f0sod">
-    <mxGraphModel dx="2022" dy="388" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="344" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DELKKwsP7DvwE-UPYKjy-0" />
         <mxCell id="DELKKwsP7DvwE-UPYKjy-1" parent="DELKKwsP7DvwE-UPYKjy-0" />
@@ -2068,6 +2068,20 @@
             <mxPoint x="799" y="3040" as="sourcePoint" />
             <mxPoint x="879" y="3035" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YIzRTwQlWRnE7dNRXDU_" name="Ideas">
+    <mxGraphModel dx="2022" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="FOb5eVu3cDSJhtLdwBlm-0" />
+        <mxCell id="FOb5eVu3cDSJhtLdwBlm-1" parent="FOb5eVu3cDSJhtLdwBlm-0" />
+        <mxCell id="FOb5eVu3cDSJhtLdwBlm-2" value="&lt;div&gt;Participation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FOb5eVu3cDSJhtLdwBlm-1">
+          <mxGeometry x="200" y="240" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FOb5eVu3cDSJhtLdwBlm-9" value="&lt;div&gt;Status&lt;/div&gt;&lt;div&gt;- active&lt;br&gt;&lt;/div&gt;&lt;div&gt;- inactive&lt;/div&gt;&lt;div&gt;- waiting&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FOb5eVu3cDSJhtLdwBlm-1">
+          <mxGeometry x="210" y="410" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
